@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background for the entire page */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px; /* Increased width for the container */
+    padding: 30px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for a lifted effect */
+    border-radius: 12px; /* Rounded corners for a softer look */
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px; /* Larger font size for the title */
+    font-weight: 600;
+  }
+  
+  .password-section {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .password-input {
+    flex: 1;
+    padding: 15px; /* More padding for better readability */
+    border: 1px solid #ddd;
+    border-radius: 6px; /* Slightly rounded corners */
+    font-size: 18px; /* Larger font size for the input */
+    color: #333;
+    outline: none; /* Remove the default outline */
+  }
+  
+  .copy-button {
+    background-color: #007bff; /* Primary blue color */
+    border: none;
+    color: #fff;
+    padding: 15px 25px; /* Larger padding for a more prominent button */
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px; /* Rounded corners for the button */
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+    transform: scale(1.05);
+  }
+  
+  .settings {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .range-wrapper, .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Increased margin for spacing */
+  }
+  
+  .range-slider {
+    margin-right: 15px; /* Increased margin for spacing */
+  }
+  
+  .range-label {
+    font-size: 16px; /* Slightly larger font size for readability */
+    color: #555;
+  }
+  
+  .checkbox-wrapper {
+    display: flex; /* Arrange checkboxes in a row */
+    align-items: center;
+    gap: 15px; /* Space between checkboxes */
+  }
+  
+  .checkbox-wrapper label {
+    margin-left: 5px; /* Margin for spacing */
+    color: #555;
+  }
+  
+  .checkbox-wrapper input[type="checkbox"] {
+    margin-right: 5px; /* Margin for spacing */
+  }
+  
